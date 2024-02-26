@@ -1,0 +1,15 @@
+.container__footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.container__footer>hr {
+    width: 100vw;
+    margin-bottom: 20px;
+}
+.container__footer>p {
+    color: rgb(63, 62, 62);
+}
