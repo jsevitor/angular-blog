@@ -1,12 +1,12 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-    .container__menu-title > h1 {
-        font-size: 80px;
+    .container__articles {
+        flex-direction: row;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .container__menu-title > h1 {
-        font-size: 135px;
+    .container__articles {
+        flex-direction: row;
     }
 }
 
