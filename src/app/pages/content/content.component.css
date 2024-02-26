@@ -8,20 +8,21 @@
     align-items: center;
 }
 
-.content__cover > img {
-    width: 500px;
-    min-width: 500px;
-    height: 300px;
-    margin-bottom: 20px;
-    border: 5px solid rgb(201, 199, 199);
+.content__cover>img {
+    width: 100%;
+    margin: 20px 0;
     border-radius: 5px;
+    -webkit-box-shadow: 10px 10px 33px -10px rgba(140, 140, 140, 1);
+    -moz-box-shadow: 10px 10px 33px -10px rgba(140, 140, 140, 1);
+    box-shadow: 10px 10px 33px -10px rgba(140, 140, 140, 1);
 }
 
 .content__description {
     margin-top: 20px;
 }
 
-.content__description > p {
+.content__description>p {
     color: rgb(144, 144, 144);
     margin-top: 10px;
+    font-size: 18px;
 }
